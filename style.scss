@@ -1,0 +1,308 @@
+*
+{
+   /* background-image: linear-gradient(to right ,#f6875f ,#f76d3a ,#f74707);
+    background-repeat: none;
+    background-size: cover; 
+    */
+  
+
+
+}
+
+  .navbar
+  {
+   position:sticky;
+  } 
+
+
+/* ---------- header code ------- */
+
+body
+{
+   background-image: linear-gradient(to right ,#f6875f ,#f76d3a ,#f74707);
+}
+#header
+{
+   background-image: linear-gradient(to right ,#f6875f ,#f76d3a ,#f74707);
+   position: sticky;
+ .navbar-brand  img
+ {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+ .navbar-nav
+ {
+    font-size:20px;
+    li
+    {
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    a
+    {
+      color: white;  
+    }
+ }
+}
+
+
+/* -------- Image slider code Start------- */
+
+#slide
+{
+ .carousel-inner
+ {
+.carousel-item img
+{
+height: 400;
+
+} 
+ }  
+
+}
+
+
+
+
+
+/* --------- Image slider code End ------- */
+
+
+
+/* ---------- header code ------- */
+
+
+/* ----- Text Container code Start ----- */
+
+#text-content
+{
+background-image: url(images/santa\ close.png); 
+background-size: cover;
+background-repeat: no-repeat;
+   .row
+   {
+    .col-4 h1 {
+        margin-top: 250px;
+        font-size: 50px;
+        color: white;
+      }
+   } 
+}
+
+
+
+
+
+
+
+
+
+/* ----- Text Container code End ----- */
+
+/* ----- Best Wishes code Star------ */
+#Best-Wishes
+{
+    background-image: linear-gradient(to right ,#f6875f ,#f76d3a ,#f74707);
+    background-repeat: none;
+    background-size: cover; 
+    
+ h1
+ {
+    font-size: 50px;
+ }   
+.row
+{
+
+.hay 
+{
+    
+h1
+{
+margin-top: 15%;    
+color: white;
+}
+p 
+{
+    padding: 5% 5% 0% 5%;
+    line-height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+img
+{
+    border: 0px solid red;
+    height: 80%;
+
+}
+}
+#collapseExample ,#collapseExample1
+{
+  .card
+  {
+   padding: 5% 5% 0% 5%;
+   line-height: 35px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+
+ border: none;
+  /* background-image: linear-gradient(to right ,#f6875f ,#f76d3a);
+*/
+   background-image: linear-gradient(to right ,#f6875f ,#f76d3a ,#f74707);
+  } 
+}
+
+}
+}
+
+#BestDeals
+{
+   background-image: linear-gradient(to right ,#f6875f ,#f76d3a ,#f74707);
+  
+  h1
+   {
+      margin-top: 3%;  
+      font-size: 50px;
+   }
+   .row
+   {
+      margin-top: 4%;
+   }
+   .col-md-4 
+   {
+      cursor: pointer;
+      
+   }  
+   .col-md-4 img:hover
+   {
+    transform: scale(1.05);
+    transition: 2s;
+   }
+
+} 
+
+#Donate
+{
+   .container-fluid
+{
+   h1
+   {
+      margin-top: 5%;    
+      font-size: 50px;
+   }
+   .row
+   {
+      margin-top: 4%;  
+   .col-md-4
+   {
+      cursor: pointer;
+   } 
+   .col-md-4 img:hover
+   {
+      transform: scale(1.05);
+      transition: 2s;
+      border: 5px solid red;
+   }  
+   }
+}
+}
+
+
+
+
+
+
+/* ----- Best Wishes code End------ */
+
+
+#Testimonial
+{
+   .container-fluid
+   {
+      h1
+      {
+         font-size: 50px;
+      }
+      .row
+      {
+         img
+         {
+         width: 250px;
+         height: 250px;
+            border-radius: 50%;
+         }
+         .text-center
+         {
+            padding: 0% 15% 0% 15%;
+            color: white;
+            font-weight: bold;
+         }
+      }
+   }
+}
+
+#footer
+{
+   background-color: black;
+   margin-top: 5%;
+   padding-top: 5%;
+   padding-bottom: 2%;
+
+   .row
+   {
+   
+    .col-md-3
+    {
+      ul li
+      {
+         list-style: none;
+         a
+         {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+         }
+      }
+    }
+   }
+   .col-md-5
+   {
+      .social-media img:hover
+      {
+         transform: translateY(-50px);
+         transition: 1s;
+      }
+      .social-media img
+      {
+         cursor: pointer;
+      }
+   }
+
+   #footerrow
+   {
+      background-image: linear-gradient(to right ,#76f171 ,#55f14f ,#3ad434);
+   button
+   {
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      border: red;
+      border-radius: 0px  100px  100px 0px;
+   }
+   input
+   {
+      font-weight: bold;
+      color:black;
+      border-radius: 100px  0px  0px 100px;
+      border: 5px solid red;
+   }
+   }
+}
+
+#payment
+{
+   
+}
